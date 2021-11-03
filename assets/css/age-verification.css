@@ -1,0 +1,85 @@
+.age-verification {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  overflow: scroll;
+}
+.age-verification header {
+  display: -moz-box;
+  display: flex;
+  -moz-box-pack: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.age-verification .main-logo img {
+    height: 40px;
+    vertical-align: middle;
+    max-width: 100%;
+    aspect-ratio: 30/7;
+}
+.age-verification__body {
+  background: #fff;
+  padding: 1rem 0;
+}
+.age-verification__title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+.age-verification__form-state {
+  max-width: 21.4285714286rem;
+  margin: 0 auto 1rem;
+}
+.form-group {
+  margin-bottom: 1rem;
+}
+.age-verification__form-birth {
+  background: #000;
+  padding: 0 1rem 1.5rem;
+  margin: 3.5rem auto;
+  max-width: 500px;
+}
+.age-verification__form-birth p {
+  color: #fff;
+}
+.btn-primary:active, .btn-primary:hover {
+  background-color: #5e7a00!important;
+  border: 0;
+}
+.btn-primary {
+  background-color: #729300!important;
+  border: 0;
+}
+@media screen and (min-width: 768px) {
+  .age-verification header {
+    padding: 2rem;
+  }
+  .age-verification .main-logo img {
+      height: 70px;
+  }
+  .age-verification__body {
+    padding: 4rem 0 3rem;
+  }
+  .age-verification__title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  .age-verification__form-state {
+    margin-bottom: 2rem;
+  }
+  .age-verification__form-birth {
+    padding: 1rem;
+    margin: 4rem auto;
+  }
+}
+
+.main-logo img {
+    height: 50px;
+    aspect-ratio: 30/7;
+}
+.main img {
+    max-width: 100%;
+}
